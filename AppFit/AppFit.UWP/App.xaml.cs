@@ -28,6 +28,8 @@ namespace AppFit.UWP
         /// </summary>
         public App()
         {
+            global::Xamarin.Forms.Forms.SetFlags("Shell_UWP_Experimental");
+
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }

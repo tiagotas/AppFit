@@ -7,7 +7,7 @@
         <ToolbarItem Text="Nova" Order="Primary" Command="{Binding NovaAtividade}" />
         
         <ToolbarItem Text="Salvar"
-                     IconImageSource="salvar24"
+                     IconImageSource="{OnPlatform Android=salvar24, UWP=Assets/salvar24.png}"
                      Order="Primary"
                      Command="{Binding SalvarAtividade}"/>
     </ContentPage.ToolbarItems>

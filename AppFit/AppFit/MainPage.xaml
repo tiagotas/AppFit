@@ -5,17 +5,17 @@
        x:Class="AppFit.MainPage">
 
     <TabBar>
-        <Tab Title="Nova Atividade" Icon="exercicio" Route="CadastroAtividade">
+        <Tab Title="Nova Atividade" Icon="{OnPlatform Android=exercicio, UWP=Assets/exercicio.png}" Route="CadastroAtividade">
             <ShellContent>
                 <Views:CadastroAtividade Title="Cadastro de Atividade" />
             </ShellContent>
         </Tab>
-        <Tab Title="Minhas Atividades" Icon="meus_exercicios" Route="MinhasAtividades">
+        <Tab Title="Minhas Atividades" Icon="{OnPlatform Android=meus_exercicios, UWP=Assets/meus_exercicios.png}" Route="MinhasAtividades">
             <ShellContent>
                 <Views:ListaAtividades Title="Minhas Atividades" />
             </ShellContent>
         </Tab>
-        <Tab Title="Sobre" Icon="sobre">
+        <Tab Title="Sobre" Icon="{OnPlatform Android=sobre, UWP=Assets/sobre.png}">
             <ShellContent>
                 <Views:Sobre Title="Sobre o App" />
             </ShellContent>

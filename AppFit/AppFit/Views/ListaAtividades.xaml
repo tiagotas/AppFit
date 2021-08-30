@@ -6,7 +6,7 @@
     
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Atualizar"
-                     IconImageSource="refresh24"
+                     IconImageSource="{OnPlatform Android=refresh24, UWP=Assets/refresh24.png}"
                      Command="{Binding AtualizarLista}"
                      Order="Primary" />
     </ContentPage.ToolbarItems>
